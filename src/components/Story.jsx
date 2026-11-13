@@ -34,7 +34,7 @@ export default function Story() {
             </header>
             <div className="prose">
               <p>
-                In 2014 Mara Ellison and Jonah Park came home from a harvest in Huila with a notebook of coffees they could not find in Bengaluru. Brew & Bean started as one twelve-kilogram roaster in a shared kitchen, and a rule: buy only from farms they had stood in.
+                In 2014 Mara Ellison and Jonah Park came home from a harvest in Huila with a notebook of coffees they could not find in Bengaluru. Roast House started as one twelve-kilogram roaster in a shared kitchen, and a rule: buy only from farms they had stood in.
               </p>
               <p>
                 The Indiranagar roastery still runs those small batches. Fourteen producer partners send coffee to Bengaluru. We profile each lot for sweetness, then pour the same beans in Bengaluru, Mumbai, and Delhi.

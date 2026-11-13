@@ -418,7 +418,7 @@ export const locations = [
     region: 'Bengaluru, Karnataka 560038',
     phone: '+91 98450 11048',
     tel: '+919845011048',
-    email: 'hello@brewandbean.example',
+    email: 'hello@roasthouse.example',
     hours: [
       ['Mon – Fri', '7:00 AM – 6:00 PM'],
       ['Sat – Sun', '8:00 AM – 5:00 PM'],
@@ -438,7 +438,7 @@ export const locations = [
     region: 'Mumbai, Maharashtra 400050',
     phone: '+91 98200 11072',
     tel: '+919820011072',
-    email: 'mumbai@brewandbean.example',
+    email: 'mumbai@roasthouse.example',
     hours: [
       ['Mon – Fri', '7:00 AM – 7:00 PM'],
       ['Sat – Sun', '8:00 AM – 6:00 PM'],
@@ -458,7 +458,7 @@ export const locations = [
     region: 'New Delhi, Delhi 110003',
     phone: '+91 98100 11036',
     tel: '+919810011036',
-    email: 'delhi@brewandbean.example',
+    email: 'delhi@roasthouse.example',
     hours: [['Every day', '7:00 AM – 6:00 PM']],
     amenities: ['Sidewalk seats', 'Pastry case', 'Retail shelf', 'Dog-friendly patio'],
     blurb:
@@ -481,17 +481,6 @@ export const pickupSlots = [
   '2:00 PM',
   '3:30 PM',
   '5:00 PM',
-]
-
-export const origins = [
-  'Yirgacheffe',
-  'Huila',
-  'Nyeri',
-  'Huehuetenango',
-  'Gayo',
-  'Cerrado',
-  'Sidama',
-  'Antigua',
 ]
 
 export function money(value) {

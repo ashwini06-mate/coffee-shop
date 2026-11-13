@@ -1,4 +1,4 @@
-import { buildLine, money, origins } from '../data'
+import { buildLine, money } from '../data'
 
 export default function Hero({ featured, onAdd }) {
   return (
@@ -14,9 +14,9 @@ export default function Hero({ featured, onAdd }) {
         <div className="hero-copy">
           <p className="eyebrow">Est. 2014 · Direct-trade roastery</p>
           <h1>
-            Brew <em>&</em>
+            Roast
             <br />
-            Bean
+            <em>House</em>
           </h1>
           <p className="hero-lede">
             Seasonal coffees from farms we visit, roasted in twelve-kilogram batches and brewed to order in Bengaluru, Mumbai, and Delhi.
@@ -56,21 +56,5 @@ export default function Hero({ featured, onAdd }) {
         )}
       </div>
     </section>
-  )
-}
-
-export function Marquee() {
-  return (
-    <div className="marquee" aria-hidden="true">
-      <div className="marquee-track">
-        {[0, 1].map((copy) => (
-          <div className="marquee-group" key={copy}>
-            {origins.map((name) => (
-              <span key={`${copy}-${name}`}>{name}</span>
-            ))}
-          </div>
-        ))}
-      </div>
-    </div>
   )
 }

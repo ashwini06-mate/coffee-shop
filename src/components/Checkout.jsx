@@ -4,7 +4,7 @@ import useScrollLock from '../useScrollLock'
 
 const emptyForm = (locationId) => ({
   name: '',
-  email: 'hello@brewandbean.example',
+  email: 'hello@roasthouse.example',
   phone: '+91 98450 11048',
   locationId,
   time: '',
@@ -61,7 +61,7 @@ export default function Checkout({ cart, total, defaultLocation, onClose, onQty,
     }
 
     const order = {
-      number: `BB-${Math.floor(1000 + Math.random() * 9000)}`,
+      number: `RH-${Math.floor(1000 + Math.random() * 9000)}`,
       name: form.name.trim(),
       email: form.email.trim(),
       phone: form.phone.trim(),
@@ -109,7 +109,7 @@ export default function Checkout({ cart, total, defaultLocation, onClose, onQty,
             {confirmation.cafe.address}, {confirmation.cafe.region}. A real receipt would go to {confirmation.email}. This demo stops here.
           </p>
           <button ref={closeRef} className="btn btn-primary" type="button" onClick={onClose}>
-            Back to Brew & Bean
+            Back to Roast House
           </button>
         </div>
       </div>
@@ -189,7 +189,7 @@ export default function Checkout({ cart, total, defaultLocation, onClose, onQty,
                   type="email"
                   autoComplete="email"
                   inputMode="email"
-                  placeholder="hello@brewandbean.example"
+                  placeholder="hello@roasthouse.example"
                   value={form.email}
                   aria-invalid={errors.email ? 'true' : 'false'}
                   onChange={(event) => update('email', event.target.value)}

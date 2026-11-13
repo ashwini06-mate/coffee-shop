@@ -331,10 +331,8 @@ a {
 
 .hero h1 em,
 .footer-mark em {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.72em;
-  line-height: 0;
-  padding: 0 0.08em;
+  font-size: 1em;
+  line-height: inherit;
 }
 
 .nav.is-solid:not(.is-open) .brand em {
@@ -575,53 +573,6 @@ a {
 
 .hero :focus-visible {
   outline-color: var(--gold);
-}
-
-.marquee {
-  overflow: hidden;
-  background: #140e0a;
-  border-top: 1px solid rgba(224, 181, 106, 0.28);
-  border-bottom: 1px solid rgba(224, 181, 106, 0.28);
-}
-
-.marquee-track {
-  display: flex;
-  width: max-content;
-  animation: ticker 42s linear infinite;
-}
-
-.marquee-group {
-  display: flex;
-}
-
-.marquee-group span {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.85rem 0;
-  font-size: 0.76rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: #f0e2cc;
-  white-space: nowrap;
-}
-
-.marquee-group span::before {
-  content: "";
-  width: 5px;
-  height: 5px;
-  margin: 0 0.95rem;
-  border-radius: 50%;
-  background: var(--gold);
-}
-
-.marquee:hover .marquee-track {
-  animation-play-state: paused;
-}
-
-@keyframes ticker {
-  to {
-    transform: translateX(-50%);
-  }
 }
 
 .story-grid {

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { menuItems } from './data'
 import Navbar from './components/Navbar'
-import Hero, { Marquee } from './components/Hero'
+import Hero from './components/Hero'
 import Story from './components/Story'
 import Menu from './components/Menu'
 import Gallery from './components/Gallery'
@@ -68,7 +68,6 @@ export default function App() {
       <Navbar count={count} onCart={() => setCartOpen(true)} />
       <main id="main">
         <Hero featured={featured} onAdd={addLine} />
-        <Marquee />
         <Story />
         <Menu
           cart={cart}

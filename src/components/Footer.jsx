@@ -26,7 +26,7 @@ export default function Footer() {
         <div>
           <p className="foot-label">Roastery</p>
           <p>
-            Brew & Bean
+            Roast House
             <br />
             {flagship.address}
             <br />
@@ -89,10 +89,10 @@ export default function Footer() {
       </div>
       <div className="wrap footer-end">
         <p className="footer-mark">
-          Brew <em>&</em> Bean
+          Roast <em>House</em>
         </p>
         <div className="legal">
-          <span>© {year} Brew & Bean. A fictional café brand.</span>
+          <span>© {year} Roast House. A fictional café brand.</span>
           <span>Orders placed here are not prepared or charged.</span>
         </div>
       </div>

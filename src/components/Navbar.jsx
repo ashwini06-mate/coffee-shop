@@ -63,7 +63,7 @@ export default function Navbar({ count, onCart }) {
       <div className="wrap nav-bar">
         <a className="brand" href="#top" onClick={() => setOpen(false)}>
           <Logo />
-          <span>Brew <em>&</em> Bean</span>
+          <span>Roast <em>House</em></span>
         </a>
         <nav id="site-nav" className={open ? 'nav-links open' : 'nav-links'} aria-label="Primary">
           {links.map((link) => (
